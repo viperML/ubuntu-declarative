@@ -1,0 +1,6 @@
+Package: legatum-stage2
+Version: 1.0.0
+Architecture: amd64
+Maintainer: Anonymous
+Description: No description
+Depends: linux-generic, linux-image-generic, linux-headers-generic

@@ -1,0 +1,7 @@
+Package: grub-common grub2-common grub-pc grub-pc-bin grub-gfxpayload-lists
+Pin: release *
+Pin-Priority: -1
+
+Package: snapd cloud-init landscape-common popularity-contest ubuntu-advantage-tools
+Pin: release *
+Pin-Priority: -1
