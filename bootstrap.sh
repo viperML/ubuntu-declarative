@@ -22,7 +22,5 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
         --mount type=bind,source=/efi,target=/mnt/efi \
         --env DEBIAN_FRONTEND=noninteractive \
         ubuntu:22.04 \
-        chroot /mnt /usr/bin/bash -c "apt install --yes --reinstall /stage1.deb && apt update && apt install --yes --reinstall /stage2.deb"
+        chroot /mnt /usr/bin/bash -c "apt install --yes --reinstall /stage1.deb && apt update && apt upgrade -y && apt install --yes --reinstall /stage2.deb"
 fi
-
-
