@@ -9,3 +9,7 @@ Pin-Priority: -1
 Package: initramfs-tools initramfs-tools-bin initramfs-tools-core
 Pin: release *
 Pin-Priority: -1
+
+Package: plasma-discover plasma-discover-common
+Pin: release *
+Pin-Priority: -1

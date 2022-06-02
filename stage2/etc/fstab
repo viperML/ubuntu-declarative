@@ -1,3 +1,6 @@
 /dev/disk/by-label/LINUXESP /boot/efi vfat x-systemd.automount,x-systemd.mount-timeout=15min 0 2
 
+tank/ubuntu/nix /nix zfs defaults 0 0
+tank/ubuntu/home /home zfs defaults 0 0
+
 # /dev/tank/swap none swap defaults
