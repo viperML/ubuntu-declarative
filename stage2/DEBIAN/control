@@ -7,4 +7,4 @@ Depends: linux-generic, linux-image-generic, linux-headers-generic, linux-firmwa
   cryptsetup, dracut, zfs-dracut,
   keyboard-configuration, console-setup, console-setup-linux, kbd,
   iproute2, network-manager,
-  sudo, apt-file
+  sudo, vim

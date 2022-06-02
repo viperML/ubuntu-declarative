@@ -11,6 +11,11 @@ for s in ${stages[@]}; do
     cp -f "$s.deb" /
 done
 
+apt update
+apt upgrade --yes
+
 for s in ${stages[@]}; do
-    apt install --reinstall $s.deb
+    apt install --reinstall ./$s.deb
 done
+
+apt autopurge
