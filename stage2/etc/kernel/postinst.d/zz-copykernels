@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+set -euxo pipefail
+
+# version="$1"
+# image_path="$2"
+
+b=/boot
+esp=/efi
+prefix=/EFI/ubuntu
+e=$esp$prefix
+
+mkdir -p $e
+
+for kern in vmlinuz; do
+  if [[ $b/$kern -nt $e/$kern ]]; then
+    cp -fv --preserve $b/$kern $e/$kern
+  fi
+done
+
+for init in initrd.img; do
+  if [[ $b/$init -nt $e/$init ]]; then
+    cp -fv --preserve=mode,ownership $b/$init $e/$init
+  fi
+done

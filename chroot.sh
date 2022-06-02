@@ -13,5 +13,6 @@ docker run \
     --tty \
     --mount type=bind,source=/mnt,target=/mnt \
     --mount type=bind,source=/efi,target=/mnt/efi \
+    --env DEBIAN_FRONTEND=noninteractive \
     ubuntu:22.04 \
     chroot /mnt /usr/bin/bash

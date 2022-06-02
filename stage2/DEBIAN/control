@@ -1,6 +1,9 @@
 Package: legatum-stage2
-Version: 1.0.0
+Version: 1.0.1
 Architecture: amd64
 Maintainer: Anonymous
 Description: No description
-Depends: linux-generic, linux-image-generic, linux-headers-generic
+Depends: linux-generic, linux-image-generic, linux-headers-generic, linux-firmware,
+  cryptsetup, keyboard-configuration, console-setup, console-setup-linux, kbd,
+  dracut,
+  zfs-dracut

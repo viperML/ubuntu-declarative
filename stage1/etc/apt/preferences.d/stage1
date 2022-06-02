@@ -5,3 +5,7 @@ Pin-Priority: -1
 Package: snapd cloud-init landscape-common popularity-contest ubuntu-advantage-tools
 Pin: release *
 Pin-Priority: -1
+
+Package: initramfs-tools initramfs-tools-bin initramfs-tools-core
+Pin: release *
+Pin-Priority: -1
