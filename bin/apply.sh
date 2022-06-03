@@ -9,11 +9,8 @@ for s in ${stages[@]}; do
     dpkg-deb --build --root-owner-group $DIR/$s $s.deb
 done
 
+apt install --reinstall --yes ./stage1.deb
 apt update
 apt upgrade --yes
-
-for s in ${stages[@]}; do
-    apt install --reinstall --yes ./$s.deb
-done
-
+apt install --reinstall --yes ./stage2.deb
 apt autopurge
