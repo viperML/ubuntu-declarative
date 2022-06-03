@@ -10,6 +10,7 @@ Depends: linux-generic, linux-image-generic, linux-headers-generic, linux-firmwa
   sudo, vim, curl, git, man, manpages, strace, neofetch,
   software-properties-common,
   nvidia-driver-510,
-  kde-plasma-desktop,
+  kde-plasma-desktop, kubuntu-wallpapers, plasma-nm,
   flatpak,
-  nix-setup-systemd
+  nix-setup-systemd,
+  code
