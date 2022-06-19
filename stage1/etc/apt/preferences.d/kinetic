@@ -1,7 +1,0 @@
-Package: nix-setup-systemd
-Pin: release n=jammy
-Pin-Priority: -10
-
-Package: nix-setup-systemd
-Pin: release n=kinetic
-Pin-Priority: 900

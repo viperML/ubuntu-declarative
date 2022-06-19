@@ -13,6 +13,5 @@ docker run \
     --tty \
     --mount type=bind,source=/mnt,target=/mnt \
     --env DEBIAN_FRONTEND=noninteractive \
-    ubuntu:22.04 \
+    ubuntu:kinetic \
     chroot /mnt /usr/bin/bash
-

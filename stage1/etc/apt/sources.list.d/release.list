@@ -1,0 +1,18 @@
+deb http://archive.ubuntu.com/ubuntu/ kinetic restricted
+deb http://archive.ubuntu.com/ubuntu/ kinetic universe
+deb http://archive.ubuntu.com/ubuntu/ kinetic multiverse
+
+deb http://archive.ubuntu.com/ubuntu/ kinetic-updates main
+deb http://archive.ubuntu.com/ubuntu/ kinetic-updates restricted
+deb http://archive.ubuntu.com/ubuntu/ kinetic-updates universe
+deb http://archive.ubuntu.com/ubuntu/ kinetic-updates multiverse
+
+deb http://archive.ubuntu.com/ubuntu/ kinetic-security main
+deb http://archive.ubuntu.com/ubuntu/ kinetic-security restricted
+deb http://archive.ubuntu.com/ubuntu/ kinetic-security universe
+deb http://archive.ubuntu.com/ubuntu/ kinetic-security multiverse
+
+deb http://archive.ubuntu.com/ubuntu/ kinetic-backports main
+deb http://archive.ubuntu.com/ubuntu/ kinetic-backports restricted
+deb http://archive.ubuntu.com/ubuntu/ kinetic-backports universe
+deb http://archive.ubuntu.com/ubuntu/ kinetic-backports multiverse
