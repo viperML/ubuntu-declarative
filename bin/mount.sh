@@ -5,8 +5,7 @@ m=/mnt
 
 grep /mnt /etc/mtab && umount -R /mnt
 
-# mount -t tmpfs tmpfs $m
-mount -t zfs -o zfsutil bigz/ubuntu/rootfs $m
+mount -t tmpfs tmpfs $m
 
 mkdir -p $m/{efi,usr,var,etc,opt,boot}
 
