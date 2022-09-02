@@ -9,5 +9,6 @@ in
         debootstrap
         dpkg
         arch-install-scripts
+        shellcheck
       ];
     }

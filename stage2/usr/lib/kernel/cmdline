@@ -1,1 +1,1 @@
-root=ZFS=bigz/ubuntu/rootfs loglevel=4 nvidia-drm.modeset=1
+root=tmpfs loglevel=4 nvidia-drm.modeset=1

@@ -4,8 +4,8 @@ nix_saved_XDG_DATA_DIRS="$XDG_DATA_DIRS"
 BASH='/nix/store/1b9p07z77phvv2hf6gm9f28syp39f1ag-bash-5.1-p16/bin/bash'
 CONFIG_SHELL='/nix/store/1b9p07z77phvv2hf6gm9f28syp39f1ag-bash-5.1-p16/bin/bash'
 export CONFIG_SHELL
-EPOCHREALTIME='1662020242.840871'
-EPOCHSECONDS='1662020242'
+EPOCHREALTIME='1662135890.335226'
+EPOCHSECONDS='1662135890'
 HOSTTYPE='x86_64'
 HOST_PATH='/nix/store/mj6wiv9gbbydh06x2i4fl5a9ksdck7c5-coreutils-9.1/bin:/nix/store/nqwkgzay3m6ynr4qz42ypx576s7ckp24-findutils-4.9.0/bin:/nix/store/kdjh27abb5zqy267vh4jyg5hifkgls04-diffutils-3.8/bin:/nix/store/n62963g6w2fj8hnka006wycqwx9pqw5q-gnused-4.8/bin:/nix/store/zpjn33mx0pbfc71ddfi9sc8pdfqrsh8z-gnugrep-3.7/bin:/nix/store/7rd34k5jnjwhpk7i9dwjc9xd93psp4gg-gawk-5.1.1/bin:/nix/store/a9g8ybypk5a7id2w733zysimy7iflrqx-gnutar-1.34/bin:/nix/store/j19qj61afxq0bvw2m2pdzhxbwwmbhsqw-gzip-1.12/bin:/nix/store/fkwmqzinrwwj56ch0zn2lzsbpn16am1s-bzip2-1.0.8-bin/bin:/nix/store/3nb49dj29gxmbmbx9r7a5l4sqcxclhgk-gnumake-4.3/bin:/nix/store/1b9p07z77phvv2hf6gm9f28syp39f1ag-bash-5.1-p16/bin:/nix/store/vd6dg2052y5vmfknb7pv9zr1n1pp58yb-patch-2.7.6/bin:/nix/store/x167mv1qdkmk1s4mw1kb56s3rfw1ff9h-xz-5.2.5-bin/bin:/nix/store/j752yi6l87bfdblcxjcpisn6ynb7izw7-file-5.42/bin'
 export HOST_PATH
@@ -17,7 +17,7 @@ LINENO='73'
 MACHTYPE='x86_64-pc-linux-gnu'
 NIX_BUILD_CORES='16'
 export NIX_BUILD_CORES
-NIX_CFLAGS_COMPILE=' -frandom-seed=21wxzwlpqj'
+NIX_CFLAGS_COMPILE=' -frandom-seed=icihf9v46v'
 export NIX_CFLAGS_COMPILE
 NIX_ENFORCE_NO_NATIVE='1'
 export NIX_ENFORCE_NO_NATIVE
@@ -33,7 +33,7 @@ OLDPWD=''
 export OLDPWD
 OPTERR='1'
 OSTYPE='linux-gnu'
-PATH='/nix/store/whzvh0ia9wyjv52pjsi1rqxfnzl3121r-debootstrap-1.0.127/bin:/nix/store/pg8zrdfy6bnsqlqwhxzhqvlwskrsn5zc-dpkg-1.21.1ubuntu2.1/bin:/nix/store/0900ci1gki9hjiyf9m5sckn84ny9qqig-resholved-arch-install-scripts-24/bin:/nix/store/zwd4xhxsklsqsqn5vgz4zdw33wkmiw77-patchelf-0.15.0/bin:/nix/store/mj6wiv9gbbydh06x2i4fl5a9ksdck7c5-coreutils-9.1/bin:/nix/store/nqwkgzay3m6ynr4qz42ypx576s7ckp24-findutils-4.9.0/bin:/nix/store/kdjh27abb5zqy267vh4jyg5hifkgls04-diffutils-3.8/bin:/nix/store/n62963g6w2fj8hnka006wycqwx9pqw5q-gnused-4.8/bin:/nix/store/zpjn33mx0pbfc71ddfi9sc8pdfqrsh8z-gnugrep-3.7/bin:/nix/store/7rd34k5jnjwhpk7i9dwjc9xd93psp4gg-gawk-5.1.1/bin:/nix/store/a9g8ybypk5a7id2w733zysimy7iflrqx-gnutar-1.34/bin:/nix/store/j19qj61afxq0bvw2m2pdzhxbwwmbhsqw-gzip-1.12/bin:/nix/store/fkwmqzinrwwj56ch0zn2lzsbpn16am1s-bzip2-1.0.8-bin/bin:/nix/store/3nb49dj29gxmbmbx9r7a5l4sqcxclhgk-gnumake-4.3/bin:/nix/store/1b9p07z77phvv2hf6gm9f28syp39f1ag-bash-5.1-p16/bin:/nix/store/vd6dg2052y5vmfknb7pv9zr1n1pp58yb-patch-2.7.6/bin:/nix/store/x167mv1qdkmk1s4mw1kb56s3rfw1ff9h-xz-5.2.5-bin/bin:/nix/store/j752yi6l87bfdblcxjcpisn6ynb7izw7-file-5.42/bin'
+PATH='/nix/store/whzvh0ia9wyjv52pjsi1rqxfnzl3121r-debootstrap-1.0.127/bin:/nix/store/pg8zrdfy6bnsqlqwhxzhqvlwskrsn5zc-dpkg-1.21.1ubuntu2.1/bin:/nix/store/0900ci1gki9hjiyf9m5sckn84ny9qqig-resholved-arch-install-scripts-24/bin:/nix/store/6n7ib4p38cib0ssxdi79g1hb6kmqm99f-shellcheck-0.8.0-bin/bin:/nix/store/zwd4xhxsklsqsqn5vgz4zdw33wkmiw77-patchelf-0.15.0/bin:/nix/store/mj6wiv9gbbydh06x2i4fl5a9ksdck7c5-coreutils-9.1/bin:/nix/store/nqwkgzay3m6ynr4qz42ypx576s7ckp24-findutils-4.9.0/bin:/nix/store/kdjh27abb5zqy267vh4jyg5hifkgls04-diffutils-3.8/bin:/nix/store/n62963g6w2fj8hnka006wycqwx9pqw5q-gnused-4.8/bin:/nix/store/zpjn33mx0pbfc71ddfi9sc8pdfqrsh8z-gnugrep-3.7/bin:/nix/store/7rd34k5jnjwhpk7i9dwjc9xd93psp4gg-gawk-5.1.1/bin:/nix/store/a9g8ybypk5a7id2w733zysimy7iflrqx-gnutar-1.34/bin:/nix/store/j19qj61afxq0bvw2m2pdzhxbwwmbhsqw-gzip-1.12/bin:/nix/store/fkwmqzinrwwj56ch0zn2lzsbpn16am1s-bzip2-1.0.8-bin/bin:/nix/store/3nb49dj29gxmbmbx9r7a5l4sqcxclhgk-gnumake-4.3/bin:/nix/store/1b9p07z77phvv2hf6gm9f28syp39f1ag-bash-5.1-p16/bin:/nix/store/vd6dg2052y5vmfknb7pv9zr1n1pp58yb-patch-2.7.6/bin:/nix/store/x167mv1qdkmk1s4mw1kb56s3rfw1ff9h-xz-5.2.5-bin/bin:/nix/store/j752yi6l87bfdblcxjcpisn6ynb7izw7-file-5.42/bin'
 export PATH
 PS4='+ '
 SHELL='/nix/store/1b9p07z77phvv2hf6gm9f28syp39f1ag-bash-5.1-p16/bin/bash'
@@ -96,7 +96,7 @@ mesonFlags=''
 export mesonFlags
 name='nix-shell'
 export name
-nativeBuildInputs='/nix/store/whzvh0ia9wyjv52pjsi1rqxfnzl3121r-debootstrap-1.0.127 /nix/store/pg8zrdfy6bnsqlqwhxzhqvlwskrsn5zc-dpkg-1.21.1ubuntu2.1 /nix/store/0900ci1gki9hjiyf9m5sckn84ny9qqig-resholved-arch-install-scripts-24'
+nativeBuildInputs='/nix/store/whzvh0ia9wyjv52pjsi1rqxfnzl3121r-debootstrap-1.0.127 /nix/store/pg8zrdfy6bnsqlqwhxzhqvlwskrsn5zc-dpkg-1.21.1ubuntu2.1 /nix/store/0900ci1gki9hjiyf9m5sckn84ny9qqig-resholved-arch-install-scripts-24 /nix/store/0dd4igdnwkbgy9q5jg7dnjpq85pxn9ja-shellcheck-0.8.0'
 export nativeBuildInputs
 out='/home/ayats/Documents/ubuntu-declarative/outputs/out'
 export out
@@ -117,7 +117,7 @@ phases='buildPhase'
 export phases
 pkg='/nix/store/wlwcf1nw2b21m4gghj70hbg1v7x53ld8-reproducible-builds.sh'
 declare -a pkgsBuildBuild=()
-declare -a pkgsBuildHost=('/nix/store/whzvh0ia9wyjv52pjsi1rqxfnzl3121r-debootstrap-1.0.127' '/nix/store/pg8zrdfy6bnsqlqwhxzhqvlwskrsn5zc-dpkg-1.21.1ubuntu2.1' '/nix/store/0900ci1gki9hjiyf9m5sckn84ny9qqig-resholved-arch-install-scripts-24' '/nix/store/zwd4xhxsklsqsqn5vgz4zdw33wkmiw77-patchelf-0.15.0' '/nix/store/59jmzisg8fkm9c125fw384dqq1np602l-move-docs.sh' '/nix/store/kxw6q8v6isaqjm702d71n2421cxamq68-make-symlinks-relative.sh' '/nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh' '/nix/store/g8xg0i02aqwhgxwd2vnp5ax3d6lrkg1v-strip.sh' '/nix/store/bnj8d7mvbkg3vdb07yz74yhl3g107qq5-patch-shebangs.sh' '/nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh' '/nix/store/8zxndz5ag0p6s526c2xyllhk1nrn4c3i-audit-tmpdir.sh' '/nix/store/c8n9kcdddp9np665xz6ri61b383nxvz8-move-systemd-user-units.sh' '/nix/store/1i5y55x4b4m9qkx5dqbmr1r6bvrqbanw-multiple-outputs.sh' '/nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh' '/nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh' '/nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh' '/nix/store/wlwcf1nw2b21m4gghj70hbg1v7x53ld8-reproducible-builds.sh' )
+declare -a pkgsBuildHost=('/nix/store/whzvh0ia9wyjv52pjsi1rqxfnzl3121r-debootstrap-1.0.127' '/nix/store/pg8zrdfy6bnsqlqwhxzhqvlwskrsn5zc-dpkg-1.21.1ubuntu2.1' '/nix/store/0900ci1gki9hjiyf9m5sckn84ny9qqig-resholved-arch-install-scripts-24' '/nix/store/0dd4igdnwkbgy9q5jg7dnjpq85pxn9ja-shellcheck-0.8.0' '/nix/store/6n7ib4p38cib0ssxdi79g1hb6kmqm99f-shellcheck-0.8.0-bin' '/nix/store/zwd4xhxsklsqsqn5vgz4zdw33wkmiw77-patchelf-0.15.0' '/nix/store/59jmzisg8fkm9c125fw384dqq1np602l-move-docs.sh' '/nix/store/kxw6q8v6isaqjm702d71n2421cxamq68-make-symlinks-relative.sh' '/nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh' '/nix/store/g8xg0i02aqwhgxwd2vnp5ax3d6lrkg1v-strip.sh' '/nix/store/bnj8d7mvbkg3vdb07yz74yhl3g107qq5-patch-shebangs.sh' '/nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh' '/nix/store/8zxndz5ag0p6s526c2xyllhk1nrn4c3i-audit-tmpdir.sh' '/nix/store/c8n9kcdddp9np665xz6ri61b383nxvz8-move-systemd-user-units.sh' '/nix/store/1i5y55x4b4m9qkx5dqbmr1r6bvrqbanw-multiple-outputs.sh' '/nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh' '/nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh' '/nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh' '/nix/store/wlwcf1nw2b21m4gghj70hbg1v7x53ld8-reproducible-builds.sh' )
 declare -a pkgsBuildTarget=()
 declare -a pkgsHostHost=()
 declare -a pkgsHostTarget=()

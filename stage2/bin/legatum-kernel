@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -eux
+
+dracut --regenerate-all --force
+
+KVER="$(ls -1 /lib/modules | tail)"
+
+kernel-install add $KVER /boot/vmlinuz-$KVER

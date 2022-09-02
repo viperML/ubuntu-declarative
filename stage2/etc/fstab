@@ -1,1 +1,21 @@
+none / tmpfs defaults,size=4G,mode=0755 0 0
+
+bigz/ubuntu/usr /usr zfs defaults 0 0
+bigz/ubuntu/etc /etc zfs defaults 0 0
+bigz/ubuntu/var /var zfs defaults 0 0
+
+
+/dev/disk/by-label/LINUXSWAP none swap defaults
+
 /dev/disk/by-label/LINUXESP /efi vfat x-systemd.automount,x-systemd.mount-timeout=15min 0 2
+bigz/ubuntu/boot /boot zfs x-systemd.automount 0 0
+bigz/ubuntu/opt /opt zfs x-systemd.automount 0 0
+
+bigz/ayats/desktop /home/ayats/Desktop zfs x-systemd.automount 0 0
+bigz/ayats/documents /home/ayats/Documents zfs x-systemd.automount 0 0
+bigz/ayats/downloads /home/ayats/Downloads zfs x-systemd.automount 0 0
+bigz/ayats/music /home/ayats/Music zfs x-systemd.automount 0 0
+bigz/ayats/pictures /home/ayats/Pictures zfs x-systemd.automount 0 0
+bigz/ayats/videos /home/ayats/Videos zfs x-systemd.automount 0 0
+
+bigz/nixos/secrets /var/lib/secrets zfs defaults 0 0

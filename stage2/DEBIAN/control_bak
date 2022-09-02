@@ -7,6 +7,10 @@ Depends: linux-generic, linux-image-generic, linux-headers-generic, linux-firmwa
   cryptsetup, dracut, zfs-dracut,
   keyboard-configuration, console-setup, console-setup-linux, kbd,
   iproute2, network-manager,
-  sudo, vim, curl, git, man, manpages, strace,
-  software-properties-common, apt-file,
-  nvidia-driver-515
+  sudo, vim, curl, git, man, manpages, strace, neofetch,
+  software-properties-common,
+  nvidia-driver-515,
+  kde-plasma-desktop, kubuntu-wallpapers, plasma-nm, ark,
+  flatpak,
+  nix-setup-systemd,
+  code
