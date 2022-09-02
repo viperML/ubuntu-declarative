@@ -8,10 +8,7 @@ if [ "$EUID" -ne 0 ]
   exit
 fi
 
-docker run \
-    --interactive \
-    --tty \
-    --mount type=bind,source=/mnt,target=/mnt \
-    --env DEBIAN_FRONTEND=noninteractive \
-    ubuntu:kinetic \
-    chroot /mnt /usr/bin/bash
+systemd-nspawn -D /mnt \
+    --setenv=PATH=/usr/bin:/usr/sbin:/bin:/sbin \
+    --bind-ro="$DIR:/src" \
+    --resolv-conf=replace-host
