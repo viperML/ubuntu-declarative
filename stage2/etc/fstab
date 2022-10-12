@@ -19,6 +19,7 @@ bigz/ayats/downloads /home/ayats/Downloads zfs x-systemd.automount 0 0
 bigz/ayats/music /home/ayats/Music zfs x-systemd.automount 0 0
 bigz/ayats/pictures /home/ayats/Pictures zfs x-systemd.automount 0 0
 bigz/ayats/videos /home/ayats/Videos zfs x-systemd.automount 0 0
+bigz/ayats/dot-ssh /home/ayats/.ssh zfs x-systemd.automount,nofail 0 0
 
 
-bigz/nixos/secrets /var/lib/secrets zfs defaults 0 0
+bigz/nixos/secrets /var/lib/secrets zfs x-systemd.automount,nofail 0 0

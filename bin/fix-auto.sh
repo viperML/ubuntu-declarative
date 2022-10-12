@@ -1,0 +1,105 @@
+#!/usr/bin/env bash
+
+# Fix packages marked as manual from debootstrap
+
+packages=(
+  adduser
+  apt
+  base-files
+  base-passwd
+  bash
+  bsdutils
+  coreutils
+  dash
+  debconf
+  debianutils
+  diffutils
+  dpkg
+  e2fsprogs
+  findutils
+  gcc-12-base
+  gpgv
+  grep
+  gzip
+  hostname
+  init-system-helpers
+  libacl1
+  libapt-pkg6.0
+  libattr1
+  libaudit-common
+  libaudit1
+  libblkid1
+  libbz2-1.0
+  libc-bin
+  libc6
+  libcap-ng0
+  libcap2
+  libcom-err2
+  libcrypt1
+  libdb5.3
+  libdebconfclient0
+  libext2fs2
+  libffi8
+  libgcc-s1
+  libgcrypt20
+  libgmp10
+  libgnutls30
+  libgpg-error0
+  libhogweed6
+  libidn2-0
+  liblz4-1
+  liblzma5
+  libmount1
+  libncurses6
+  libncursesw6
+  libnettle8
+  libp11-kit0
+  libpam-modules
+  libpam-modules-bin
+  libpam-runtime
+  libpam0g
+  libpcre2-8-0
+  libpcre3
+  libprocps8
+  libseccomp2
+  libselinux1
+  libsemanage-common
+  libsemanage2
+  libsepol2
+  libsmartcols1
+  libss2
+  libstdc++6
+  libsystemd0
+  libtasn1-6
+  libtinfo6
+  libudev1
+  libunistring2
+  libuuid1
+  libxxhash0
+  libzstd1
+  login
+  logsave
+  lsb-base
+  mawk
+  mount
+  ncurses-base
+  ncurses-bin
+  passwd
+  perl-base
+  procps
+  sed
+  sensible-utils
+  sgml-base
+  sysvinit-utils
+  tar
+  ubuntu-keyring
+  util-linux
+  util-linux-extra
+  zlib1g
+)
+
+for p in ${packages[@]}; do
+    set -x
+    apt-mark auto "$p"
+    set +x
+done
