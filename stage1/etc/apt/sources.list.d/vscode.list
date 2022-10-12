@@ -1,0 +1,2 @@
+deb [arch=amd64,arm64,armhf] http://packages.microsoft.com/repos/code stable main
+
