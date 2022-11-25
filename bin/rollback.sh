@@ -1,11 +1,21 @@
 #!/usr/bin/env bash
 set -euxo pipefail
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")"; pwd)"
+source "$DIR/common.sh"
 
-grep /mnt /proc/mounts && umount -R /mnt
+if grep $M /proc/mounts; then
+    umount -R $M
+    was_mounted=1
+else
+    was_mounted=0
+fi
 
-zfs rollback bigz/ubuntu/usr@empty
-zfs rollback bigz/ubuntu/etc@empty
-zfs rollback bigz/ubuntu/opt@empty
-zfs rollback bigz/ubuntu/var@empty
-zfs rollback bigz/ubuntu/boot@empty
-zfs rollback bigz/ubuntu/rootfs@empty
+zfs rollback $ZPOOL/usr@empty
+zfs rollback $ZPOOL/etc@empty
+zfs rollback $ZPOOL/opt@empty
+zfs rollback $ZPOOL/var@empty
+zfs rollback $ZPOOL/boot@empty
+
+if [[ $was_mounted -eq 1 ]]; then
+    exec "$DIR/mount.sh"
+fi

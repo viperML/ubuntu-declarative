@@ -1,18 +1,21 @@
 #!/usr/bin/env bash
 set -euxo pipefail
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")"; pwd)"
+source "$DIR/common.sh"
 
-m=/mnt
 
-grep /mnt /etc/mtab && umount -R /mnt
+grep $M /etc/mtab && umount -R $M
 
-mount -t tmpfs tmpfs $m
+mount -t tmpfs tmpfs $M
 
-mkdir -p $m/{efi,usr,var,etc,opt,boot}
+mkdir -p $M/{efi,usr,var,etc,opt,boot}
 
-mount -t zfs bigz/ubuntu/usr $m/usr
-mount -t zfs bigz/ubuntu/var $m/var
-mount -t zfs bigz/ubuntu/etc $m/etc
-mount -t zfs bigz/ubuntu/opt $m/opt
-mount -t zfs bigz/ubuntu/boot $m/boot
+mount -t zfs $ZPOOL/usr $M/usr
+mount -t zfs $ZPOOL/var $M/var
+mount -t zfs $ZPOOL/etc $M/etc
+mount -t zfs $ZPOOL/opt $M/opt
+mount -t zfs $ZPOOL/boot $M/boot
 
-mount /dev/disk/by-label/LINUXESP $m/efi
+mount /dev/disk/by-label/LINUXESP $M/efi
+
+findmnt | grep $M
